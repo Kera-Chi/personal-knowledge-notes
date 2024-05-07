@@ -10,7 +10,7 @@ Could not start a new session. Response code 500. Message: session not created: 
 
 **解決步驟：**
 1. 確認當前 ChromeDriver 版本：`chromedriver --version`
-2. 前往 [Google Chrome Labs](https://googlechromelabs.github.io/) 下載正確版本（Apple M2 需下載 mac-arm64 版本）。
+2. 前往 [Google Chrome Labs]([https://googlechromelabs.github.io/](https://googlechromelabs.github.io/chrome-for-testing/)) 下載正確版本（Apple M2 需下載 mac-arm64 版本）。
 3. 切換至 ChromeDriver 下載目錄。
 4. 賦予執行權限：`chmod +x chromedriver`
 5. 確認 ChromeDriver 的安裝路徑：`which chromedriver`（例如 `/opt/homebrew/bin/chromedriver`）。
